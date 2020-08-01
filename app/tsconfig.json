@@ -15,12 +15,12 @@
     "strict": true,
     "noImplicitAny": false,
     "noEmit": true,
-    "baseUrl": "./client",
+    "baseUrl": "./src",
     "paths": {
       "~/*": ["./*"],
       "@/*": ["./*"]
     },
-    "typeRoots": ["/client/@types"],
+    "typeRoots": ["/src/@types"],
     "types": [
       "@types/node",
       "@nuxt/types"
