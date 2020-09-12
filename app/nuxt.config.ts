@@ -1,8 +1,7 @@
-import { Configuration } from '@nuxt/types'
+import { NuxtConfig } from '@nuxt/types'
 
-const config: Configuration = {
-  mode: 'universal',
-  target: 'static',
+const config: NuxtConfig = {
+  target: 'server',
   srcDir: 'src',
   /*
    ** Headers of the page
